@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Register">
+   <children>
+      <ImageView fitHeight=".0" fitWidth="1035.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/reg.png" />
+         </image>
+      </ImageView>
+      <ToggleButton fx:id="register" layoutX="140.0" layoutY="351.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="269.0" text="REGISTER" textFill="white">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+         </font>
+         <style>
+            -fx-background-color: black;
+         </style>
+      </ToggleButton>
+      <ToggleButton fx:id="login" layoutX="578.0" layoutY="349.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="260.0" text="LOG IN" textAlignment="CENTER" textFill="white">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+         </font>
+         <style>
+            /* Set background color to black */
+            -fx-background-color: black;
+            }
+
+            /* Highlight on Click */
+            .toggle-button:pressed {
+            -fx-background-color: #00ff00; /* green */
+            }
+         </style>
+      </ToggleButton>
+      <Label layoutX="360.0" layoutY="200.0" text="Join the Fun" textAlignment="CENTER" textFill="white">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="57.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" disable="true" layoutX="135.0" layoutY="549.0" prefHeight="52.0" prefWidth="345.0" />
+      <TextField fx:id="password" disable="true" layoutX="498.0" layoutY="549.0" prefHeight="52.0" prefWidth="345.0" />
+      <Label layoutX="135.0" layoutY="513.0" prefHeight="38.0" prefWidth="160.0" text="Username" textFill="white">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="498.0" layoutY="518.0" text="Password" textFill="white">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="save" disable="true" layoutX="133.0" layoutY="617.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="150.0" text="SAVE" textAlignment="CENTER" textFill="#110a5c">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="go" disable="true" layoutX="694.0" layoutY="617.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="150.0" text="GO!" textAlignment="CENTER" textFill="#110a5c">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="quit" layoutX="386.0" layoutY="617.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="200.0" text="QUIT" textAlignment="CENTER" textFill="black">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+         </font>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

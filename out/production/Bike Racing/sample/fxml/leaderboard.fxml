@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LeaderboardController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="400" prefWidth="600" spacing="10" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+         <Label text="Top 10 Players">
+            <font>
+               <Font size="24" />
+            </font>
+         </Label>
+         <TableView fx:id="tableView">
+            <columns>
+               <TableColumn fx:id="usernameColumn" prefWidth="490.0" text="Username" />
+               <TableColumn fx:id="gamesWonColumn" minWidth="0.0" prefWidth="501.0" text="Games Won" />
+            </columns>
+         </TableView>
+         <Button fx:id="loadData" text="Load Data" />
+         <Button fx:id="back" mnemonicParsing="false" prefHeight="8.0" prefWidth="84.0" style="-fx-background-color: white;" text="BACK" textFill="black">
+            <font>
+               <Font size="11.0" />
+            </font>
+         </Button>
+      </VBox>
+   </children>
+</AnchorPane>

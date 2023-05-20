@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Initializer">
+   <children>
+      <ImageView fx:id="imageview" fitHeight="792.0" fitWidth="1095.0" layoutX="-9.0" layoutY="-37.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-5.0" AnchorPane.leftAnchor="-9.0" AnchorPane.rightAnchor="-86.0" AnchorPane.topAnchor="-37.0">
+         <image>
+            <Image url="@../resources/background2.png" />
+         </image>
+      </ImageView>
+      <ToggleButton fx:id="clientButton" contentDisplay="CENTER" layoutY="450.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="243.0" text="JOIN GAME" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </ToggleButton>
+      <Button fx:id="playButton" cache="true" disable="true" layoutX="661.0" layoutY="680.0" mnemonicParsing="false" opacity="0.92" prefHeight="82.0" prefWidth="350.0" style="-fx-background-color: green;" text="RACE" textAlignment="CENTER" textFill="#0bdaa6">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="44.0" />
+         </font></Button>
+      <ToggleButton fx:id="serverButton" layoutY="370.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="243.0" text="CREATE GAME" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </ToggleButton>
+      <TextField fx:id="textfield" disable="true" layoutX="661.0" layoutY="614.0" opacity="0.82" prefHeight="70.0" prefWidth="350.0" promptText="Enter Server IP Address here">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <ToggleButton fx:id="instructions" layoutY="532.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="243.0" text="INSTRUCTIONS" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton fx:id="aboutus" layoutY="602.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="243.0" text="ABOUT ME">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton fx:id="quit" layoutX="400.0" layoutY="600.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="169.0" text="QUIT" textAlignment="CENTER" textFill="#d1137e">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </ToggleButton>
+      <Label fx:id="label" alignment="CENTER" layoutX="419.0" layoutY="69.0" prefHeight="57.0" prefWidth="169.0" text="Label" textAlignment="CENTER" textFill="#000000e5">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

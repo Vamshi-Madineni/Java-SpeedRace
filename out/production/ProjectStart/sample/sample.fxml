@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Initializer">
+   <children>
+      <ImageView fx:id="imageview" fitHeight="850.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@background2.png" />
+         </image>
+      </ImageView>
+      <ToggleButton fx:id="clientButton" layoutY="450.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="300.0" text="JOIN GAME" textFill="#d60d86">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="46.0" />
+         </font>
+      </ToggleButton>
+      <Button fx:id="playButton" disable="true" layoutX="661.0" layoutY="680.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="350.0" style="-fx-background-color: green;" text="START PLAY" textAlignment="CENTER" textFill="#0cf5c4">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="44.0" />
+         </font></Button>
+      <ToggleButton fx:id="serverButton" layoutY="370.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="300.0" text="CREATE GAME" textAlignment="CENTER" textFill="#de1481">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="45.0" />
+         </font>
+      </ToggleButton>
+      <TextField fx:id="textfield" disable="true" layoutX="661.0" layoutY="614.0" prefHeight="70.0" prefWidth="350.0" promptText="Server IP address">
+         <font>
+            <Font size="30.0" />
+         </font></TextField>
+      <ToggleButton fx:id="instructions" layoutY="532.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="300.0" text="INSTRUCTIONS" textAlignment="CENTER" textFill="#d90f93">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="39.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton fx:id="aboutus" layoutY="602.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="300.0" text="ABOUT ME" textFill="#d10f74">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="46.0" />
+         </font>
+      </ToggleButton>
+      <ToggleButton fx:id="quit" layoutY="684.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="300.0" text="QUIT" textAlignment="CENTER" textFill="#d1137e">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="42.0" />
+         </font>
+      </ToggleButton>
+      <Label fx:id="label" alignment="CENTER" layoutX="419.0" layoutY="265.0" text="Label" textAlignment="CENTER" textFill="#e31717e5">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

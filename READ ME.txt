@@ -1,0 +1,5 @@
+### Game Instructions
+1. Run the "FirstWindow" program.
+2. Create a game and wait for an opponent to join.
+3. If playing on separate devices, provide the server's IP address to the opponent to join the game.
+4. If playing on the same laptop, an IP address is not required.

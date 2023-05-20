@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AboutUsInitializer">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1050.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@abt.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="843.0" layoutY="689.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: lightgreen;" text="BACK" textFill="#360ced">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="58.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
